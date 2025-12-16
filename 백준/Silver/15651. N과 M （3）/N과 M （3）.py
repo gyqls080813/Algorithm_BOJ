@@ -1,6 +1,5 @@
 N, M = map(int, input().split())
 input_list = [n for n in range(1, N + 1)]
-isused = [False] * N
 
 def solution(step, in_list):
     if step == M:
